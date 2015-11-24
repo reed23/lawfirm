@@ -28,13 +28,169 @@
 /**********************************/
 
 .wrapper{
-	background-color: white;
+	width: 100%;
+	
+}
+
+
+.header{
+	display: block;
+	padding: 10px;
+	margin: 0 auto;
+	background-color: #4588E8;
+}
+
+.header .button{
+	float: right;
+}
+
+.header_links{
+	float: right;
+	width: 70%;
+}
+
+.logo{
+	width: 25%;
+	display: block;
+	float: left;
+}
+
+.main_nav{
+	clear: both
+}
+
+.main_nav li{
+	display: inline-block;
+	padding-left: 11px;
+}
+
+
+
+.main_nav ul{
+	padding-top: 75px;
+}
+
+
+.main_nav a{
+	color: #3e5ca1;
+}
+
+
+.imgbox{
+	background-image: url(../img/murphyhome.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.imgbox h2{
+	background: rgba( 0,0,0, 0.2 );
+	color: white;
+	margin-top: 100px;
+	text-shadow: 0 2px 2px rgba( 0, 0, 0, 0.4 );
+}
+
+.imgbox .button{
+	margin-bottom: 100px;
+}
+
+.lawyerbox{
+	display: block;
+	width: 100%;
+	background-color: tan;
+
+}
+
+
+.img{
 	width: 100%;
 }
 
-.login{
-	margin: 0 auto;
 
+
+
+.button{
+	-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
+	background-color:#7892c2;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	max-width: 200px;
+	text-align: center;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+
+.footer{
+	width: 100%;
+    background-color: blue;
+    padding: 20px;
+
+}
+
+.grayboxholder{
+	width: 50%;
+	background-color: blue;
+	float: left;
+}
+
+
+
+
+
+
+
+
+.footer img{
+ width: 25%;
+
+}
+
+.footer p{
+	font-size: 25px;
+    color: #e1dba8;
+
+    float: right;
+    padding-right: 50px;
+    padding-top: 50px;
+    
+
+
+}
+.firminfo{
+	width: 100%;
+	background-color: #c3c3c3;
+	padding: 10px;
+}
+
+.header1 img{
+	width: 25%;
+}
+.wrapper1 {
+	width: 100%;
+
+}
+
+
+
+.login2{
 	-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
 	-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
 	box-shadow: 0px 0px 0px 2px #9fb4f2;
@@ -59,38 +215,193 @@
 	text-decoration:none;
 	text-shadow:0px 1px 0px #283966;
 	float: right;
-
 }
 
-
-.header{
-	display: block;
-	padding:20px;
-
-width: 100%;
-margin: 0 auto;
-
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2dec1+1,c19e67+50,e9d4b3+100 */
-background: rgb(242,222,193); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(242,222,193,1) 1%, rgba(193,158,103,1) 50%, rgba(233,212,179,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(242,222,193,1)), color-stop(50%,rgba(193,158,103,1)), color-stop(100%,rgba(233,212,179,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, rgba(242,222,193,1) 1%,rgba(193,158,103,1) 50%,rgba(233,212,179,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, rgba(242,222,193,1) 1%,rgba(193,158,103,1) 50%,rgba(233,212,179,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, rgba(242,222,193,1) 1%,rgba(193,158,103,1) 50%,rgba(233,212,179,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom, rgba(242,222,193,1) 1%,rgba(193,158,103,1) 50%,rgba(233,212,179,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2dec1', endColorstr='#e9d4b3',GradientType=0 ); /* IE6-9 */
+.servicenav{
+	margin-right: 500px;
 }
 
-.logo{
-	width: 25%;
-	margin: 0 auto;
-	display: inline;
+.header1 img{
+	float: left;
 }
-.main_nav li{
+
+.header1 li{
 	display: inline-block;
 }
 
-.main_nav ul{
-	display: inline;
-	padding-right: 30px;
+.container {
+	background-color: white;
+	width: 100%;
+	
 }
+.header1 {
+	width: 100%;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+
+        height: 100px;
+        padding: 20px;
+}
+
+.header1 img{
+	width: 15%;
+}
+.header1 ul{
+
+}
+
+
+
+.container img{
+	width: 25%;
+}
+
+.lawyer_details li{
+	list-style-type: none;
+}
+.header  p{
+	color: #e1dba8;
+}
+
+
+
+
+@media screen and (min-width: 600px){
+
+body{
+	background-color: #aaa;
+
+}
+.box{
+	background-color: white;
+	height: 300px;
+}
+
+
+
+
+.lawyerlogo{
+	max-width: 100%;
+	width: 60%;
+	margin-left: 169px;
+	margin-top: 50px;
+	
+}
+
+
+
+
+
+.main_image{
+background-image: url(../img/lawtest2.jpg);
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+    margin: 0px;
+    padding-top: 100px;
+    padding-bottom: 300px;
+    
+   
+}
+
+
+.header2 li{
+	display: inline-block;
+	padding-right: 1px;
+	width: 15%;
+	line-height: 50px;
+}
+
+.homepage_nav a{
+	text-decoration: none;
+	color: white;
+	font-family:helvetica solid; 
+
+}
+
+
+
+.header2{
+	background-color: #00508D;
+    display: block;
+    padding-top: 1px;
+    padding-bottom: 25px;
+
+}
+
+
+
+
+
+} /*end of 600 */
+
+
+@media screen and (min-width: 800px){
+	
+.new_wrapper{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.lawyerlogo{
+	width: 55%;
+	margin-left: 250px;
+	margin-top: 200px;
+}
+
+
+
+
+
+	.lawyerbox > div{
+		float: left;
+		width: 44%;
+		padding: 20px 3%;
+	}
+
+	.lawyer_details{
+		float: right;
+		width: 50%;
+	}
+
+	.lawyerbox img{
+		float: left;
+		width: 45%;
+	}
+.imgbox .button{
+	float: right;
+}
+
+
+.imgbox h2{
+	width: 30%;
+	font-size: 26px;
+
+}
+.ronb{
+	width: 25%;
+}
+
+.graybox{
+	width: 40%;
+	background-color: gray;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding: 40px;
+	border-radius: 25px;
+}
+
+.lawyer_box{
+	background-color: tan;
+	width: 40%;
+	float: right;
+	margin: 0 auto;
+	margin-bottom: 500px;
+}
+a
