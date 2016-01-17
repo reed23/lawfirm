@@ -1,0 +1,19 @@
+/* line 1, ../scss/_test.scss */
+p {
+  color: red;
+}
+
+/* line 1, ../scss/_nav.scss */
+.nav {
+  postion: fixed;
+}
+
+/* line 4, ../scss/main.scss */
+body {
+  background-color: black;
+}
+
+/* line 8, ../scss/main.scss */
+div {
+  color: red;
+}
