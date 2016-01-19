@@ -19,14 +19,51 @@ zoom: 1;
 656668**/
 /***** GENERIC STYLES *************/
 /**********************************/
+.myfooter{
+  padding-bottom: 50px;
+}
+
+
+.formbutton{
+   display: block;
+width: 50%;
+margin: 20px auto;
+padding: 20px 2%;
+border: none;
+margin-bottom: 10px;
+font-size: 24px;
+text-transform: uppercase;
+text-align: center;
+
+background-color: green;
+color: white;
+font-family: 'Raleway' sans-serif;
+}
+
 #my-menu:not( .mm-menu ) {
    display: none;
 }
 
+.formwrap{
+width: 70%;
+    margin: 20px auto;
+}
 
+.div_form2{
+  margin-bottom: 20px;
+}
+.div_form{
+  margin-bottom: 20px;
 
+}
 
-
+.div_form2 input{
+  display: block;
+width: 90%;
+padding: 20px 2%;
+border: none;
+margin-left: 10px;
+}
 
 
 .ghost-button-thick-border {
@@ -630,7 +667,7 @@ font-size: 1.2em;
 line-height: 1.8;
 text-align: center;
 }
-.formwrap input{
+.div_form input{
 display: block;
 width: 90%;
 padding: 10px 2%;
@@ -643,10 +680,13 @@ margin-left: 10px;
 
 width: 90%;
 margin-right: 10px;
+margin-bottom: 10px;
 
 }
 .div_form2{
 width: 90%;
+margin-bottom: 20px;
+
 
 }
 .formwrap label{
@@ -1221,14 +1261,7 @@ font-size: 24px;
 text-align: center;
 text-transform: uppercase;
 }
-.formbutton{
-text-transform: none;
-background-color: blue;
-width: 30%;
-height: 24px;
-margin-left: 184px;
 
-}
 .crosscover-container {
 height: 400px;
 }
