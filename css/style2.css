@@ -531,7 +531,10 @@ position: absolute;
 
 
 .body-overlay.active{
-	display: block !important;
+		opacity: 0.9;
+	visibility: visible;
+	transition: opacity 0.5s;
+	-webkit-transition: opacity 3.5s;
 }
 
 .body-overlay{
@@ -543,7 +546,12 @@ position: absolute;
 	bottom: 0;
 	 background-color: #404552;
 	z-index: 1000000;
-		display: none;
+		opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+		opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
 }
 
 .body-overlay a{
