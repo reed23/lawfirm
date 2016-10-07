@@ -10,10 +10,27 @@ body{
 
 
 
-.practice-box{
-	width: 90%;
-	margin: 0 auto;
+.prof{
+	  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  margin-bottom: 20px;
+
 }
+
+.prof:hover{
+	  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.practice-box{
+width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: white;
+    margin-top: 20px;
+}
+
+
 
 .contact{
 	background-color: #0fbae7 !important;
@@ -403,6 +420,16 @@ text-decoration: none;
 }
 
 
+.first-ul a{
+	display: inline-block;
+	list-style-type: none;
+		font-family: 'Open Sans', sans-serif;
+	
+		font-size: 18px;
+		text-decoration: none;
+		color: black;
+
+}
 
 
 
@@ -531,7 +558,7 @@ position: absolute;
 
 
 .body-overlay.active{
-		opacity: 0.9;
+		opacity: 1.9;
 	visibility: visible;
 	transition: opacity 0.5s;
 	-webkit-transition: opacity 3.5s;
@@ -548,7 +575,7 @@ position: absolute;
 	z-index: 1000000;
 		opacity: 0;
 	visibility: hidden;
-	transition: opacity 0.5s, visibility 0s 0.5s;
+	transition: opacity 0.3s, visibility 0s 0.3s;
 		opacity: 0;
 	visibility: hidden;
 	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
